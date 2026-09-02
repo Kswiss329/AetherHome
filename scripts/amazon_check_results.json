@@ -1,0 +1,323 @@
+{
+  "Hue Bridge Pro": {
+    "brand": "Philips Hue",
+    "slug": "hue-bridge-pro",
+    "old_price": 77.28,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Hue Essential Starter Kit": {
+    "brand": "Philips Hue",
+    "slug": "hue-essential-starter-kit",
+    "old_price": 77.99,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Hue White and Color Ambiance Starter Kit": {
+    "brand": "Philips Hue",
+    "slug": "hue-white-color-ambiance-starter-kit",
+    "old_price": 149,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Hue Play Floor Lamp": {
+    "brand": "Philips Hue",
+    "slug": "hue-play-floor-lamp",
+    "old_price": 124.99,
+    "result": {
+      "title": "Philips Hue Play Floor Lamp, 122cm, Black | White Ambience, RGBWWIC Smart LED, Multicolour Gradient, Bluetooth App Control, TV Sync Requires Hue Bridge & Sync Box",
+      "price": 124.99
+    },
+    "error": null
+  },
+  "Hue Outdoor Sensor": {
+    "brand": "Philips Hue",
+    "slug": "hue-outdoor-sensor",
+    "old_price": 49,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Ecobee Smart Thermostat Premium": {
+    "brand": "Ecobee",
+    "slug": "ecobee-smart-thermostat-premium",
+    "old_price": 205,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Ecobee Smart Thermostat Enhanced": {
+    "brand": "Ecobee",
+    "slug": "ecobee-smart-thermostat-enhanced",
+    "old_price": 158,
+    "result": {
+      "title": "NEW 2022! ecobee Smart Thermostat Enhanced works with Alexa",
+      "price": 256.99
+    },
+    "error": null
+  },
+  "Ecobee SmartSensor 2-Pack": {
+    "brand": "Ecobee",
+    "slug": "ecobee-smartsensor-2-pack",
+    "old_price": 66,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Ecobee SmartCamera": {
+    "brand": "Ecobee",
+    "slug": "ecobee-smartcamera",
+    "old_price": 66,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Ecobee Switch+": {
+    "brand": "Ecobee",
+    "slug": "ecobee-switch-plus",
+    "old_price": 82,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Arlo Pro 5S": {
+    "brand": "Arlo",
+    "slug": "arlo-pro-5s",
+    "old_price": 158,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Arlo Ultra 3": {
+    "brand": "Arlo",
+    "slug": "arlo-ultra-3",
+    "old_price": 158,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Arlo Video Doorbell 2K": {
+    "brand": "Arlo",
+    "slug": "arlo-video-doorbell-2k",
+    "old_price": 108,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Arlo Essential Spotlight Camera": {
+    "brand": "Arlo",
+    "slug": "arlo-essential-spotlight-camera",
+    "old_price": 66,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Arlo Floodlight Camera": {
+    "brand": "Arlo",
+    "slug": "arlo-floodlight-camera",
+    "old_price": 208,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "August Wi-Fi Smart Lock": {
+    "brand": "August",
+    "slug": "august-wi-fi-smart-lock",
+    "old_price": 208,
+    "result": {
+      "title": "August Wi-Fi Smart Lock + Smart Keypad, Matte Black - Add Key-Free Access to Your Home - Great for Guests and Vacation rentals",
+      "price": null
+    },
+    "error": null
+  },
+  "August Smart Lock Pro": {
+    "brand": "August",
+    "slug": "august-smart-lock-pro",
+    "old_price": 166,
+    "result": {
+      "title": "August Smart Lock Pro + Connect Hub - Wi-Fi Smart Lock for Keyless Entry - Works with Alexa, Google Assistant, and More \u2013 Silver",
+      "price": 473.99
+    },
+    "error": null
+  },
+  "August Smart Keypad": {
+    "brand": "August",
+    "slug": "august-smart-keypad",
+    "old_price": 49,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "August Doorbell Cam Pro": {
+    "brand": "August",
+    "slug": "august-doorbell-cam-pro",
+    "old_price": 166,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "August Connect": {
+    "brand": "August",
+    "slug": "august-connect",
+    "old_price": 66,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Aqara Motion Sensor P2": {
+    "brand": "Aqara",
+    "slug": "aqara-motion-sensor-p2",
+    "old_price": 23,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Aqara Smart Lock U400": {
+    "brand": "Aqara",
+    "slug": "aqara-smart-lock-u400",
+    "old_price": 225,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Aqara Hub M200": {
+    "brand": "Aqara",
+    "slug": "aqara-hub-m200",
+    "old_price": 66,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Aqara Door and Window Sensor": {
+    "brand": "Aqara",
+    "slug": "aqara-door-window-sensor",
+    "old_price": 15,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Aqara Water Leak Sensor": {
+    "brand": "Aqara",
+    "slug": "aqara-water-leak-sensor",
+    "old_price": 15,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Aqara Camera G3": {
+    "brand": "Aqara",
+    "slug": "aqara-camera-g3",
+    "old_price": 66,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Echo Hub": {
+    "brand": "Amazon Echo",
+    "slug": "echo-hub",
+    "old_price": 125,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Echo Show 8": {
+    "brand": "Amazon Echo",
+    "slug": "echo-show-8",
+    "old_price": 150,
+    "result": {
+      "title": "Amazon Echo Show 8 (newest gen), Vibrant HD 8.7\" display with spatial audio, Graphite, with Alexa+ Early Access",
+      "price": 154.99
+    },
+    "error": null
+  },
+  "Echo Dot Max": {
+    "brand": "Amazon Echo",
+    "slug": "echo-dot-max",
+    "old_price": 79.99,
+    "result": {
+      "title": "Amazon Echo Dot Max (newest gen), Bluetooth speaker with room-filling sound and built-in smart home hub, Graphite, with Alexa+ Early Access",
+      "price": 79.99
+    },
+    "error": null
+  },
+  "Echo Pop": {
+    "brand": "Amazon Echo",
+    "slug": "echo-pop",
+    "old_price": 44.99,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Echo Dot 5th Gen": {
+    "brand": "Amazon Echo",
+    "slug": "echo-dot-5th-gen",
+    "old_price": 54.99,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Echo Studio": {
+    "brand": "Amazon Echo",
+    "slug": "echo-studio",
+    "old_price": 219.99,
+    "result": {
+      "title": "Wooden Stand for Echo Studio and Homepod 2nd/1st Gen Smart Speaker, Stable Desktop Mount for Better Sound and Home Decoration (Black Walnut with Metal Strip)",
+      "price": 29.99
+    },
+    "error": null
+  },
+  "Roborock Qrevo S Pro": {
+    "brand": "Roborock",
+    "slug": "roborock-qrevo-s-pro",
+    "old_price": 429.99,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Roborock Qrevo 2 Pro": {
+    "brand": "Roborock",
+    "slug": "roborock-qrevo-2-pro",
+    "old_price": 529.99,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Roborock S8 Pro Ultra": {
+    "brand": "Roborock",
+    "slug": "roborock-s8-pro-ultra",
+    "old_price": 1079,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Roborock E5": {
+    "brand": "Roborock",
+    "slug": "roborock-e5",
+    "old_price": 249,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Nest Hub Max": {
+    "brand": "Google Nest",
+    "slug": "nest-hub-max",
+    "old_price": 214.99,
+    "result": {
+      "title": "24V Power Adapter Compatible with Google Nest Hub MAX & Audio Smart Speaker | Charger, Charging Cable, 1.5M, for 10\" Smart Display",
+      "price": 13.99
+    },
+    "error": null
+  },
+  "Nest Learning Thermostat 4th Gen": {
+    "brand": "Google Nest",
+    "slug": "nest-learning-thermostat-4th-gen",
+    "old_price": 208,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Nest Cam Indoor 3rd Gen": {
+    "brand": "Google Nest",
+    "slug": "nest-cam-indoor-3rd-gen",
+    "old_price": 83,
+    "result": null,
+    "error": "Exact title not found in top 15"
+  },
+  "Nest Doorbell": {
+    "brand": "Google Nest",
+    "slug": "nest-doorbell",
+    "old_price": 150,
+    "result": null,
+    "error": "HTTP 503"
+  },
+  "Nest Mini": {
+    "brand": "Google Nest",
+    "slug": "nest-mini",
+    "old_price": 41,
+    "result": {
+      "title": "Gelink Socket Wall Mount for Google Home Mini, Nest Mini (2nd gen) Holder Stand Hanger Plug in Kitchen Bathroom Bedroom, Hides the Long Cord (White)",
+      "price": 8.99
+    },
+    "error": null
+  },
+  "Nest Audio": {
+    "brand": "Google Nest",
+    "slug": "nest-audio",
+    "old_price": 83,
+    "result": null,
+    "error": "HTTP 503"
+  }
+}

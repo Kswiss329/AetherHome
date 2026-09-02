@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Setup quiz — AetherHome</title>
+<meta name="description" content="Answer a few questions and get a personalized smart-home starter recommendation." />
+<link rel="stylesheet" href="styles.css" />
+<script>
+function quizNext(){
+  const step = document.getElementById('step');
+  if(step.dataset.step === '1'){
+    const e = document.getElementById('ecosystem').value;
+    if(e==='alexa') step.innerHTML = `<h2 class='section-title'>Step 2: Budget</h2><p>What is your starting budget?</p><div class='section'><label><input type='radio' name='budget' value='low' onchange='quizEnd()' /> Under £150.00</label><br/><label><input type='radio' name='budget' value='mid' onchange='quizEnd()' /> £150.00–£350.00</label><br/><label><input type='radio' name='budget' value='high' onchange='quizEnd()' /> £350.00+</label></div>`;
+    } else if(e==='google'){
+      step.innerHTML = `<h2 class='section-title'>Step 2: Budget</h2><p>What is your starting budget?</p><div class='section'><label><input type='radio' name='budget' value='low' onchange='quizEnd()' /> Under £150.00</label><br/><label><input type='radio' name='budget' value='mid' onchange='quizEnd()' /> £150.00–£350.00</label><br/><label><input type='radio' name='budget' value='high' onchange='quizEnd()' /> £350.00+</label></div>`;
+    } else if(e==='apple'){
+      step.innerHTML = `<h2 class='section-title'>Step 2: Budget</h2><p>What is your starting budget?</p><div class='section'><label><input type='radio' name='budget' value='low' onchange='quizEnd()' /> Under £150.00</label><br/><label><input type='radio' name='budget' value='mid' onchange='quizEnd()' /> £150.00–£350.00</label><br/><label><input type='radio' name='budget' value='high' onchange='quizEnd()' /> £350.00+</label></div>`;
+    }
+    step.dataset.step = '2';
+  }
+}
+function quizEnd(){
+  const budget = document.querySelector('input[name="budget"]:checked')?.value || 'mid';
+  let rec = '';
+  if(budget==='low') rec = 'Start with a hub under £100.00, two smart bulbs, and one motion sensor.';
+  else if(budget==='mid') rec = 'Add a hub, a starter lighting kit, and one thermostat or camera.';
+  else rec = 'Go for hub, lighting kit, thermostat, one camera, and one lock.';
+  document.getElementById('step').innerHTML = `<div class='note-callout'><p><strong>Recommended starter:</strong> ${rec}</p></div>`;
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><div class="brand-mark" aria-hidden="true"></div>AetherHome</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#catalog">Products</a>
+      <a href="compare.html">Compare</a>
+      <a href="guides.html">Guides</a>
+      <a href="compatibility.html">Compatibility</a>
+      <a href="calculator.html">Savings</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="subscribe.html" class="btn btn-primary">Stay updated</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('hidden')">☰</button>
+  </div>
+</header>
+<div class="container section">
+  <div class="disclosure"><strong>Disclosure:</strong> We earn a commission if you purchase through our links at no extra cost to you. This supports independent testing and guides.</div>
+</div>
+<main>
+  <div class="container section">
+    <h1 class="section-title">Setup quiz</h1>
+    <p class="section-sub">Tell us about your household and we will recommend a starter path.</p>
+    <div id="step" data-step="1">
+      <h2 class="section-title">Step 1: Ecosystem</h2>
+      <p>Which voice assistant does your household already use?</p>
+      <div class="section">
+        <label><input type="radio" name="ecosystem" value="alexa" onchange="quizNext()" /> Alexa</label><br/>
+        <label><input type="radio" name="ecosystem" value="google" onchange="quizNext()" /> Google Home</label><br/>
+        <label><input type="radio" name="ecosystem" value="apple" onchange="quizNext()" /> Apple HomeKit</label><br/>
+        <label><input type="radio" name="ecosystem" value="none" onchange="quizNext()" /> None / new</label>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <div>© AetherHome — independent testing and advice. Commissions may come from affiliate links.</div>
+    <div class="tag-row">
+      <a class="tag" href="legal/privacy.html">Privacy</a>
+      <a class="tag" href="legal/terms.html">Terms</a>
+      <a class="tag" href="legal/disclosures.html">Disclosures</a>
+      <a class="tag" href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

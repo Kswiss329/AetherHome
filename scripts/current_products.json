@@ -1,0 +1,338 @@
+[
+  {
+    "brand_slug": "amazon-echo",
+    "slug": "echo-dot-5th-gen",
+    "name": "Echo Dot 5th Gen",
+    "price": "54.99",
+    "rating": "4.2",
+    "reviews": "101"
+  },
+  {
+    "brand_slug": "amazon-echo",
+    "slug": "echo-dot-max",
+    "name": "Echo Dot Max",
+    "price": "79.99",
+    "rating": "4.3",
+    "reviews": "162"
+  },
+  {
+    "brand_slug": "amazon-echo",
+    "slug": "echo-hub",
+    "name": "Echo Hub",
+    "price": "125",
+    "rating": "4.2",
+    "reviews": "140"
+  },
+  {
+    "brand_slug": "amazon-echo",
+    "slug": "echo-pop",
+    "name": "Echo Pop",
+    "price": "44.99",
+    "rating": "4.0",
+    "reviews": "94"
+  },
+  {
+    "brand_slug": "amazon-echo",
+    "slug": "echo-show-8",
+    "name": "Echo Show 8",
+    "price": "150",
+    "rating": "4.2",
+    "reviews": "174"
+  },
+  {
+    "brand_slug": "amazon-echo",
+    "slug": "echo-studio",
+    "name": "Echo Studio",
+    "price": "219.99",
+    "rating": "4.3",
+    "reviews": "89"
+  },
+  {
+    "brand_slug": "aqara",
+    "slug": "aqara-camera-g3",
+    "name": "Aqara Camera G3",
+    "price": "66",
+    "rating": "4.2",
+    "reviews": "76"
+  },
+  {
+    "brand_slug": "aqara",
+    "slug": "aqara-door-window-sensor",
+    "name": "Aqara Door and Window Sensor",
+    "price": "15",
+    "rating": "4.3",
+    "reviews": "118"
+  },
+  {
+    "brand_slug": "aqara",
+    "slug": "aqara-hub-m200",
+    "name": "Aqara Hub M200",
+    "price": "66",
+    "rating": "4.2",
+    "reviews": "318"
+  },
+  {
+    "brand_slug": "aqara",
+    "slug": "aqara-motion-sensor-p2",
+    "name": "Aqara Motion Sensor P2",
+    "price": "23",
+    "rating": "4.2",
+    "reviews": "155"
+  },
+  {
+    "brand_slug": "aqara",
+    "slug": "aqara-smart-lock-u400",
+    "name": "Aqara Smart Lock U400",
+    "price": "225",
+    "rating": "4.2",
+    "reviews": "118"
+  },
+  {
+    "brand_slug": "aqara",
+    "slug": "aqara-water-leak-sensor",
+    "name": "Aqara Water Leak Sensor",
+    "price": "15",
+    "rating": "4.4",
+    "reviews": "134"
+  },
+  {
+    "brand_slug": "arlo",
+    "slug": "arlo-essential-spotlight-camera",
+    "name": "Arlo Essential Spotlight Camera",
+    "price": "66",
+    "rating": "4.1",
+    "reviews": "83"
+  },
+  {
+    "brand_slug": "arlo",
+    "slug": "arlo-floodlight-camera",
+    "name": "Arlo Floodlight Camera",
+    "price": "208",
+    "rating": "4.0",
+    "reviews": "48"
+  },
+  {
+    "brand_slug": "arlo",
+    "slug": "arlo-pro-5s",
+    "name": "Arlo Pro 5S",
+    "price": "158",
+    "rating": "4.3",
+    "reviews": "210"
+  },
+  {
+    "brand_slug": "arlo",
+    "slug": "arlo-ultra-3",
+    "name": "Arlo Ultra 3",
+    "price": "158",
+    "rating": "4.2",
+    "reviews": "168"
+  },
+  {
+    "brand_slug": "arlo",
+    "slug": "arlo-video-doorbell-2k",
+    "name": "Arlo Video Doorbell 2K",
+    "price": "108",
+    "rating": "4.1",
+    "reviews": "146"
+  },
+  {
+    "brand_slug": "august",
+    "slug": "august-connect",
+    "name": "August Connect",
+    "price": "66",
+    "rating": "3.8",
+    "reviews": "56"
+  },
+  {
+    "brand_slug": "august",
+    "slug": "august-doorbell-cam-pro",
+    "name": "August Doorbell Cam Pro",
+    "price": "166",
+    "rating": "3.9",
+    "reviews": "41"
+  },
+  {
+    "brand_slug": "august",
+    "slug": "august-smart-keypad",
+    "name": "August Smart Keypad",
+    "price": "49",
+    "rating": "3.9",
+    "reviews": "77"
+  },
+  {
+    "brand_slug": "august",
+    "slug": "august-smart-lock-pro",
+    "name": "August Smart Lock Pro",
+    "price": "166",
+    "rating": "4.0",
+    "reviews": "102"
+  },
+  {
+    "brand_slug": "august",
+    "slug": "august-wi-fi-smart-lock",
+    "name": "August Wi-Fi Smart Lock",
+    "price": "208",
+    "rating": "4.0",
+    "reviews": "4215"
+  },
+  {
+    "brand_slug": "ecobee",
+    "slug": "ecobee-smart-thermostat-enhanced",
+    "name": "Ecobee Smart Thermostat Enhanced",
+    "price": "158",
+    "rating": "4.3",
+    "reviews": "275"
+  },
+  {
+    "brand_slug": "ecobee",
+    "slug": "ecobee-smart-thermostat-premium",
+    "name": "Ecobee Smart Thermostat Premium",
+    "price": "205",
+    "rating": "4.4",
+    "reviews": "320"
+  },
+  {
+    "brand_slug": "ecobee",
+    "slug": "ecobee-smartcamera",
+    "name": "Ecobee SmartCamera",
+    "price": "66",
+    "rating": "4.0",
+    "reviews": "45"
+  },
+  {
+    "brand_slug": "ecobee",
+    "slug": "ecobee-smartsensor-2-pack",
+    "name": "Ecobee SmartSensor 2-Pack",
+    "price": "66",
+    "rating": "4.6",
+    "reviews": "8495"
+  },
+  {
+    "brand_slug": "ecobee",
+    "slug": "ecobee-switch-plus",
+    "name": "Ecobee Switch+",
+    "price": "82",
+    "rating": "4.1",
+    "reviews": "52"
+  },
+  {
+    "brand_slug": "google-nest",
+    "slug": "nest-audio",
+    "name": "Nest Audio",
+    "price": "83",
+    "rating": "4.3",
+    "reviews": "98"
+  },
+  {
+    "brand_slug": "google-nest",
+    "slug": "nest-cam-indoor-3rd-gen",
+    "name": "Nest Cam Indoor 3rd Gen",
+    "price": "83",
+    "rating": "4.1",
+    "reviews": "132"
+  },
+  {
+    "brand_slug": "google-nest",
+    "slug": "nest-doorbell",
+    "name": "Nest Doorbell",
+    "price": "150",
+    "rating": "4.1",
+    "reviews": "88"
+  },
+  {
+    "brand_slug": "google-nest",
+    "slug": "nest-hub-max",
+    "name": "Nest Hub Max",
+    "price": "214.99",
+    "rating": "4.2",
+    "reviews": "178"
+  },
+  {
+    "brand_slug": "google-nest",
+    "slug": "nest-learning-thermostat-4th-gen",
+    "name": "Nest Learning Thermostat 4th Gen",
+    "price": "208",
+    "rating": "4.4",
+    "reviews": "245"
+  },
+  {
+    "brand_slug": "google-nest",
+    "slug": "nest-mini",
+    "name": "Nest Mini",
+    "price": "41",
+    "rating": "4.1",
+    "reviews": "112"
+  },
+  {
+    "brand_slug": "philips-hue",
+    "slug": "hue-bridge-pro",
+    "name": "Hue Bridge Pro",
+    "price": "77.28",
+    "rating": "4.4",
+    "reviews": "201"
+  },
+  {
+    "brand_slug": "philips-hue",
+    "slug": "hue-essential-starter-kit",
+    "name": "Hue Essential Starter Kit",
+    "price": "85.99",
+    "rating": "4.5",
+    "reviews": "118"
+  },
+  {
+    "brand_slug": "philips-hue",
+    "slug": "hue-outdoor-sensor",
+    "name": "Hue Outdoor Sensor",
+    "price": "49",
+    "rating": "4.6",
+    "reviews": "2142"
+  },
+  {
+    "brand_slug": "philips-hue",
+    "slug": "hue-play-floor-lamp",
+    "name": "Hue Play Floor Lamp",
+    "price": "124.99",
+    "rating": "4.8",
+    "reviews": "31"
+  },
+  {
+    "brand_slug": "philips-hue",
+    "slug": "hue-white-color-ambiance-starter-kit",
+    "name": "Hue White and Color Ambiance Starter Kit",
+    "price": "149",
+    "rating": "4.6",
+    "reviews": "552"
+  },
+  {
+    "brand_slug": "roborock",
+    "slug": "roborock-e5",
+    "name": "Roborock E5",
+    "price": "249",
+    "rating": "4.0",
+    "reviews": "92"
+  },
+  {
+    "brand_slug": "roborock",
+    "slug": "roborock-qrevo-2-pro",
+    "name": "Roborock Qrevo 2 Pro",
+    "price": "529.99",
+    "rating": "4.4",
+    "reviews": "104"
+  },
+  {
+    "brand_slug": "roborock",
+    "slug": "roborock-qrevo-s-pro",
+    "name": "Roborock Qrevo S Pro",
+    "price": "429.99",
+    "rating": "4.4",
+    "reviews": "120"
+  },
+  {
+    "brand_slug": "roborock",
+    "slug": "roborock-s8-pro-ultra",
+    "name": "Roborock S8 Pro Ultra",
+    "price": "1079",
+    "rating": "4.4",
+    "reviews": "64"
+  }
+]

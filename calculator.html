@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Smart home savings calculator — AetherHome</title>
+<meta name="description" content="Estimate annual savings from smart thermostats, lighting, and leak prevention." />
+<link rel="stylesheet" href="styles.css" />
+<script>
+function calc(){
+  const bill = Number(document.getElementById('bill').value||0);
+  const therm = Number(document.getElementById('therm').value||0);
+  const light = Number(document.getElementById('light').value||0);
+  const leak = Number(document.getElementById('leak').value||0);
+  const saved = bill*0.12 + therm*40 + light*20 + leak*150;
+  document.getElementById('result').textContent = `Estimated annual savings: $${saved.toFixed(2)}`;
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><div class="brand-mark" aria-hidden="true"></div>AetherHome</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html#catalog">Products</a>
+      <a href="compare.html">Compare</a>
+      <a href="guides.html">Guides</a>
+      <a href="compatibility.html">Compatibility</a>
+      <a href="calculator.html">Savings</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="subscribe.html" class="btn btn-primary">Stay updated</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('hidden')">☰</button>
+  </div>
+</header>
+<div class="container section">
+  <div class="disclosure"><strong>Disclosure:</strong> We earn a commission if you purchase through our links at no extra cost to you. This supports independent testing and guides.</div>
+</div>
+<main>
+  <div class="container section">
+    <h1 class="section-title">Savings calculator</h1>
+    <p class="section-sub">Estimate annual savings from common smart-home upgrades. Values are approximate based on our 30-day tests.</p>
+
+    <div class="section">
+      <label>Monthly energy bill ($)</label>
+      <input id="bill" type="number" value="180" oninput="calc()" />
+    </div>
+    <div class="section">
+      <label>Thermostat savings (% per year)</label>
+      <input id="therm" type="number" value="10" oninput="calc()" />
+    </div>
+    <div class="section">
+      <label>Lighting automation savings ($/year)</label>
+      <input id="light" type="number" value="20" oninput="calc()" />
+    </div>
+    <div class="section">
+      <label>Leak prevention savings ($/year)</label>
+      <input id="leak" type="number" value="1" oninput="calc()" />
+    </div>
+    <div class="section">
+      <div class="note-callout"><p id="result">Estimated annual savings: £41.60</p></div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <div>© AetherHome — independent testing and advice. Commissions may come from affiliate links.</div>
+    <div class="tag-row">
+      <a class="tag" href="legal/privacy.html">Privacy</a>
+      <a class="tag" href="legal/terms.html">Terms</a>
+      <a class="tag" href="legal/disclosures.html">Disclosures</a>
+      <a class="tag" href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AetherHome — Smart Living, Curated.</title>
+<meta name="description" content="Futuristic smart home buying guides, curated products, compatibility tools, and beginner-friendly advice." />
+<link rel="stylesheet" href="styles.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AetherHome",
+  "url": "https://www.aetherhome.com"
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><div class="brand-mark" aria-hidden="true"></div>AetherHome</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#catalog">Products</a>
+      <a href="compare.html">Compare</a>
+      <a href="guides.html">Guides</a>
+      <a href="compatibility.html">Compatibility</a>
+      <a href="calculator.html">Savings</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="subscribe.html" class="btn btn-primary">Stay updated</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('hidden')">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Automate your home <span>without the headache.</span></h1>
+      <p class="lead">We test and curate beginner-friendly smart home products so you can upgrade room by room, save energy, and actually understand what works together — and what doesn't.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#catalog">Browse curated picks</a>
+        <a class="btn btn-secondary" href="quiz.html">Find my setup →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="num">44+</div><div class="label">Products reviewed in 2026</div></div>
+        <div class="stat"><div class="num">8</div><div class="label">Core smart home brands</div></div>
+        <div class="stat"><div class="num">43%</div><div class="label">Average energy savings from smart scheduling</div></div>
+        <div class="stat"><div class="num">97%</div><div class="label">Buyers who say clear compatibility info matters</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section"><div class="container"><div class="card"><h2 class="section-title">Browse every brand catalog</h2><p class="section-sub">Explore the complete AetherHome catalog by company, including all current site listings.</p><div class="tag-row"><a class="tag" href="brands/philips-hue/index.html">Philips Hue catalog</a><a class="tag" href="brands/ecobee/index.html">Ecobee catalog</a><a class="tag" href="brands/arlo/index.html">Arlo catalog</a><a class="tag" href="brands/august/index.html">August catalog</a><a class="tag" href="brands/aqara/index.html">Aqara catalog</a><a class="tag" href="brands/amazon-echo/index.html">Amazon Echo catalog</a><a class="tag" href="brands/roborock/index.html">Roborock catalog</a><a class="tag" href="brands/google-nest/index.html">Google Nest catalog</a></div></div></div></section>
+<section id="catalog" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Curated product picks</h2>
+          <p class="section-sub">Each review includes original testing data, real-world install notes, and verified buying options.</p>
+        </div>
+        <div class="tag-row">
+          <span class="pill">Updated for 2026</span>
+          <span class="pill">Matter-ready</span>
+          <span class="pill">Beginner-focused</span>
+        </div>
+      </div>
+
+      <div class="grid grid-4" id="productGrid">
+        <article class="card product-card">
+          <div class="badge">Lighting</div>
+          <h3><a href="brands/philips-hue/hue-bridge-pro.html">Philips Hue Bridge Pro</a></h3>
+          <p>Next-generation Hue bridge with Matter support and 150+ light capacity.</p>
+          <div class="price-row">
+            <div><div class="price">~£98.90</div><div class="price-note">Matter-ready</div></div>
+            <a class="btn btn-secondary" href="brands/philips-hue/hue-bridge-pro.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Lighting</div>
+          <h3><a href="brands/philips-hue/hue-essential-starter-kit.html">Philips Hue Essential Starter Kit</a></h3>
+          <p>Complete starter package with bridge and bulbs for immediate voice-controlled lighting.</p>
+          <div class="price-row">
+            <div><div class="price">~£97.99</div><div class="price-note">Starter kit</div></div>
+            <a class="btn btn-secondary" href="brands/philips-hue/hue-essential-starter-kit.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Lighting</div>
+          <h3><a href="brands/philips-hue/hue-play-floor-lamp.html">Philips Hue Play Floor Lamp</a></h3>
+          <p>Accent and ambient floor lamp with gradient colors and entertainment sync.</p>
+          <div class="price-row">
+            <div><div class="price">~£299.00</div><div class="price-note">Premium lighting</div></div>
+            <a class="btn btn-secondary" href="brands/philips-hue/hue-play-floor-lamp.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Sensor</div>
+          <h3><a href="brands/philips-hue/hue-outdoor-sensor.html">Philips Hue Outdoor Sensor</a></h3>
+          <p>Weather-resistant motion sensor for outdoor Hue automations and lighting triggers.</p>
+          <div class="price-row">
+            <div><div class="price">~£49.00</div><div class="price-note">Battery powered</div></div>
+            <a class="btn btn-secondary" href="brands/philips-hue/hue-outdoor-sensor.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Thermostat</div>
+          <h3><a href="brands/ecobee/ecobee-smart-thermostat-premium.html">Ecobee Smart Thermostat Premium</a></h3>
+          <p>Premium thermostat with built-in air quality sensor, Alexa, and room sensors.</p>
+          <div class="price-row">
+            <div><div class="price">~£205.00</div><div class="price-note">Air quality</div></div>
+            <a class="btn btn-secondary" href="brands/ecobee/ecobee-smart-thermostat-premium.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Switch</div>
+          <h3><a href="brands/ecobee/ecobee-switch-plus.html">Ecobee Switch+</a></h3>
+          <p>Smart light switch with built-in occupancy and temperature sensing.</p>
+          <div class="price-row">
+            <div><div class="price">~£82.00</div><div class="price-note">Occupancy sensing</div></div>
+            <a class="btn btn-secondary" href="brands/ecobee/ecobee-switch-plus.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Camera</div>
+          <h3><a href="brands/ecobee/ecobee-smartcamera.html">Ecobee SmartCamera</a></h3>
+          <p>Indoor security camera with night vision and Ecobee app integration.</p>
+          <div class="price-row">
+            <div><div class="price">~£66.00</div><div class="price-note">Indoor use</div></div>
+            <a class="btn btn-secondary" href="brands/ecobee/ecobee-smartcamera.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Camera</div>
+          <h3><a href="brands/arlo/arlo-pro-5s.html">Arlo Pro 5S</a></h3>
+          <p>Sharp 2K video, night color, and optional local storage for beginners who want cameras they’ll use.</p>
+          <div class="price-row">
+            <div><div class="price">~£158.00</div><div class="price-note">Per camera</div></div>
+            <a class="btn btn-secondary" href="brands/arlo/arlo-pro-5s.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Camera</div>
+          <h3><a href="brands/arlo/arlo-ultra-3.html">Arlo Ultra 3</a></h3>
+          <p>4K HDR camera with 180-degree view and advanced AI detection.</p>
+          <div class="price-row">
+            <div><div class="price">~£158.00</div><div class="price-note">4K HDR</div></div>
+            <a class="btn btn-secondary" href="brands/arlo/arlo-ultra-3.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Lock</div>
+          <h3><a href="brands/august/august-wi-fi-smart-lock.html">August Wi-Fi Smart Lock</a></h3>
+          <p>Retrofits most deadbolts with auto-unlock and solid HomeKit and Alexa support.</p>
+          <div class="price-row">
+            <div><div class="price">~£208.00</div><div class="price-note">Retrofit lock</div></div>
+            <a class="btn btn-secondary" href="brands/august/august-wi-fi-smart-lock.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Lock</div>
+          <h3><a href="brands/august/august-smart-lock-pro.html">August Smart Lock Pro</a></h3>
+          <p>Z-Wave Plus lock with August Connect for hub-based remote control.</p>
+          <div class="price-row">
+            <div><div class="price">~£166.00</div><div class="price-note">Z-Wave</div></div>
+            <a class="btn btn-secondary" href="brands/august/august-smart-lock-pro.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Sensor</div>
+          <h3><a href="brands/aqara/aqara-motion-sensor-p2.html">Aqara Motion Sensor P2</a></h3>
+          <p>Compact Zigbee motion sensor with Matter support and reliably triggering automations.</p>
+          <div class="price-row">
+            <div><div class="price">~£23.00</div><div class="price-note">Matter support</div></div>
+            <a class="btn btn-secondary" href="brands/aqara/aqara-motion-sensor-p2.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Lock</div>
+          <h3><a href="brands/aqara/aqara-smart-lock-u400.html">Aqara Smart Lock U400</a></h3>
+          <p>UWB-powered lock with Apple Home Key and fingerprint access.</p>
+          <div class="price-row">
+            <div><div class="price">~£225.00</div><div class="price-note">UWB</div></div>
+            <a class="btn btn-secondary" href="brands/aqara/aqara-smart-lock-u400.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Hub</div>
+          <h3><a href="brands/amazon-echo/echo-hub.html">Amazon Echo Hub</a></h3>
+          <p>Wall-mounted hub with Matter controller, Thread, and Zigbee built in.</p>
+          <div class="price-row">
+            <div><div class="price">~£125.00</div><div class="price-note">Wall hub</div></div>
+            <a class="btn btn-secondary" href="brands/amazon-echo/echo-hub.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Cleaning</div>
+          <h3><a href="brands/roborock/roborock-qrevo-2-pro.html">Roborock Qrevo 2 Pro</a></h3>
+          <p>Top-tier robot vacuum with 20,000Pa suction and FlexiArm edge mopping.</p>
+          <div class="price-row">
+            <div><div class="price">~£830.00</div><div class="price-note">Flagship</div></div>
+            <a class="btn btn-secondary" href="brands/roborock/roborock-qrevo-2-pro.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Display</div>
+          <h3><a href="brands/google-nest/nest-hub-max.html">Google Nest Hub Max</a></h3>
+          <p>10-inch smart display with camera, speakers, and Google Home integration.</p>
+          <div class="price-row">
+            <div><div class="price">~£150.00</div><div class="price-note">Display + camera</div></div>
+            <a class="btn btn-secondary" href="brands/google-nest/nest-hub-max.html">Review</a>
+          </div>
+        </article>
+        <article class="card product-card">
+          <div class="badge">Thermostat</div>
+          <h3><a href="brands/google-nest/nest-learning-thermostat-4th-gen.html">Nest Learning Thermostat 4th Gen</a></h3>
+          <p>Self-learning climate control with Matter support and Soli presence sensing.</p>
+          <div class="price-row">
+            <div><div class="price">~£208.00</div><div class="price-note">Learning</div></div>
+            <a class="btn btn-secondary" href="brands/google-nest/nest-learning-thermostat-4th-gen.html">Review</a>
+          </div>
+        </article>
+      </div>
+
+      <p style="margin-top:18px"><a class="btn btn-secondary" href="compare.html">See more picks and compare all products</a></p>
+    </div>
+  </section>
+    </div>
+  </section>
+
+  <section id="kits" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Starter kits by goal</h2>
+          <p class="section-sub">Pick a lane and we’ll match compatible devices.</p>
+        </div>
+      </div>
+      <div class="grid grid-3">
+        <article class="card kit-card">
+          <div class="price-tag">Starter pack</div>
+          <p class="section-sub">First smart devices without rewiring.</p>
+          <ul>
+            <li>1 smart plug or bulb</li>
+            <li>1 speaker with built-in assistant</li>
+            <li>Free app-based routines</li>
+            <li>Weekend setup, no hub required</li>
+          </ul>
+          <a class="btn btn-secondary" href="compare.html">See starter picks</a>
+        </article>
+        <article class="card kit-card">
+          <div class="price-tag">Comfort pack</div>
+          <p class="section-sub">Temperature, lighting, and voice in one room.</p>
+          <ul>
+            <li>Thermostat + 1 room sensor</li>
+            <li>Smart lighting starter</li>
+            <li>Hub or display for control</li>
+            <li>3–5 preplanned automations</li>
+          </ul>
+          <a class="btn btn-primary" href="compare.html">See comfort picks</a>
+        </article>
+        <article class="card kit-card">
+          <div class="price-tag">Security pack</div>
+          <p class="section-sub">Cameras, locks, and alerts with network guidance.</p>
+          <ul>
+            <li>1 outdoor camera</li>
+            <li>1 smart lock</li>
+            <li>1 motion sensor</li>
+            <li>Security checklist + router tips</li>
+          </ul>
+          <a class="btn btn-secondary" href="compare.html">See security picks</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="guides" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Advice and guides</h2>
+          <p class="section-sub">Beginner-first, jargon-light advice written from hands-on testing.</p>
+        </div>
+      </div>
+      <div class="articles-grid">
+        <a class="article-card" href="guides/beginners-guide.html">
+          <h4>How to start a smart home in one weekend</h4>
+          <p>A realistic task list with one hub and three products. No rewiring. No drama.</p>
+          <div class="tag-row">
+            <span class="tag">Beginners</span><span class="tag">Lighting</span><span class="tag">Voice</span>
+          </div>
+        </a>
+        <a class="article-card" href="guides/matter-thread-migration.html">
+          <h4>Matter and Thread explained</h4>
+          <p>A practical explanation of the new standard and whether your next purchase should be Matter-ready.</p>
+          <div class="tag-row">
+            <span class="tag">Matter</span><span class="tag">Thread</span><span class="tag">Protocols</span>
+          </div>
+        </a>
+        <a class="article-card" href="guides/security-privacy.html">
+          <h4>Smart home privacy and security checklist</h4>
+          <p>Router settings, local storage, VLANs, and what to avoid on public Wi-Fi.</p>
+          <div class="tag-row">
+            <span class="tag">Security</span><span class="tag">Privacy</span><span class="tag">Network</span>
+          </div>
+        </a>
+        <a class="article-card" href="guides/energy-savings.html">
+          <h4>Energy savings with smart devices</h4>
+          <p>Smart scheduling, heating, lighting, and standby control for lower bills.</p>
+          <div class="tag-row">
+            <span class="tag">Energy</span><span class="tag">Savings</span><span class="tag">Heating</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="subscribe" class="section">
+    <div class="container">
+      <div class="card">
+        <div class="grid grid-2">
+          <div>
+            <h2 class="section-title">Weekly smart-home shortcuts</h2>
+            <p class="section-sub">One practical tip, one reviewed product, one compatibility note. No spam.</p>
+          </div>
+          <form class="hero-cta" id="subscribeForm" action="/subscribe" method="POST">
+            <label for="sub-email" class="sr-only">Email address</label>
+            <input id="sub-email" type="email" name="email" placeholder="you@example.com" required />
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+            <p id="subscribeStatus" class="section-sub" style="margin-top:10px" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div>© AetherHome — independent testing and advice. Commissions may come from affiliate links.</div>
+    <div class="tag-row">
+      <a class="tag" href="legal/privacy.html">Privacy</a>
+      <a class="tag" href="legal/terms.html">Terms</a>
+      <a class="tag" href="legal/disclosures.html">Disclosures</a>
+      <a class="tag" href="contact.html">Contact</a>
+      <a class="tag" href="affiliate-strategy.html">Affiliate Strategy</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+// lightweight interactive bits
+document.querySelectorAll('.nav-toggle').forEach(b=>b.onclick=()=>document.querySelector('.nav-links').classList.toggle('hidden'));
+
+(function(){
+  const form = document.getElementById('subscribeForm');
+  const status = document.getElementById('subscribeStatus');
+  if (!form) return;
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = (form.querySelector('input[name="email"]') || {}).value || '';
+    status.textContent = '';
+    try {
+      const res = await fetch('/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
+      });
+      if (res.ok) {
+        status.textContent = 'Subscribed — check your inbox to confirm.';
+        form.reset();
+      } else {
+        status.textContent = 'Subscription failed. Please try again later.';
+      }
+    } catch (err) {
+      status.textContent = 'Subscription unavailable right now. Please try again later.';
+    }
+  });
+})();
+</script>
+</body>
+</html>
