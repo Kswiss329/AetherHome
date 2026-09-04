@@ -1,0 +1,17 @@
+name: SEO Automation
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Submit sitemap to search engines
+        uses: fishinthewater/action-submit-sitemap@v1.0.2
+        with:
+          sitemap: ${{ github.server_url }}/${{ github.repository }}/sitemap.xml
