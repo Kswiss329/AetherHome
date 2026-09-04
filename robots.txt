@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Kswiss329.github.io/AetherHome/sitemap.xml
